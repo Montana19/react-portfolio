@@ -32,7 +32,6 @@ html {
   
   
   .wrapper {
-  
     margin-top: 64px;
     margin-left: 64px;
     margin-right: 184px;
@@ -42,6 +41,7 @@ html {
   
   .top_header {
     display: flex;
+    justify-content: space-between;
     margin-bottom: 24px;
   }
   
@@ -51,43 +51,14 @@ html {
   }
   
   .AvatarIco {
-    margin-left: 280px;
     width: 280px;
     height: 280px;
-  }
-  
-  .Education {
-    margin-left: 328px;
-    font-size: 24px;
-    line-height: 40px;
-    width: 279px;
-    height: 120px;
-  }
-  
-  .Education h3 {
-    opacity: 30%;
-    font-weight: 400;
-  }
-  
-  .Education p {
-    opacity: 60%;
-    font-weight: 400;
   }
   
   .id_header {
     display: flex;
     justify-content: space-between;
     font-weight: 400;
-  }
-  
-  .id_name h1 {
-    font-size: 36px;
-    opacity: 60%;
-  }
-  
-  .id_name h2 {
-    font-size: 24px;
-    opacity: 30%;
   }
   
   .id_info {
@@ -97,68 +68,15 @@ html {
     margin-left: 328px;
   }
   
-  .id_contact {
-    opacity: 30%;
-    font-size: 14px;
-    text-align: right;
-    line-height: 24px;
-  }
-  
-  .id_quote {
-    font-size: 24px;
-    line-height: 40px;
-    margin-top: 104px;
-    opacity: 60%;
-    font-weight: 400;
-  }
-  
   .main {
     margin-top: 328px;
     display: flex;
-  }
-  
-  .nav_portfolio {
-    color: rgba(0, 0, 0, 0.3);
-    font-size: 24px;
-    height: 280px;
-    width: 280px;
-    line-height: 40px;
-  }
-  
-  .nav_portfolio p {
-    font-weight: 300;
-    margin-bottom: 8px;
-  }
-  
-  p.nav_title {
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.6);
   }
   
   .work_list {
     width: 584px;
     margin-left: 328px;
     color: rgba(0, 0, 0, 0.3);
-  }
-  
-  .work_twenty span {
-    color: rgba(0, 0, 0, 0.6);
-    font-size: 24px;
-    line-height: 40px;
-  }
-  
-  .work_twenty h4 {
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 40px;
-    margin-bottom: 20px;
-  }
-  
-  .work_twenty p {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 112px;
   }
   
   .work_mappen span {

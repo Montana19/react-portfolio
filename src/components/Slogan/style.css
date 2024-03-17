@@ -1,0 +1,16 @@
+.slogan {
+    font-size: 24px;
+    line-height: 40px;
+    width: 279px;
+    height: 120px;
+  }
+  
+  .slogan h3 {
+    opacity: 30%;
+    font-weight: 400;
+  }
+  
+  .slogan p {
+    opacity: 60%;
+    font-weight: 400;
+  }

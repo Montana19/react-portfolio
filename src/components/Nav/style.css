@@ -1,0 +1,17 @@
+.nav_portfolio {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 24px;
+    height: 280px;
+    width: 280px;
+    line-height: 40px;
+  }
+  
+  .nav_portfolio p {
+    font-weight: 300;
+    margin-bottom: 8px;
+  }
+  
+  p.nav_title {
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+  }
