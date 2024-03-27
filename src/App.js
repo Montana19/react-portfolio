@@ -10,6 +10,7 @@ import Contacts from "./components/Contacts/Contacts";
 import Quote from "./components/Qoute/Quote";
 import Nav from "./components/Nav/Nav";
 import Article from "./components/Article/Article";
+import Emptybox from "./components/Emptybox/Emptybox";
 
 const SwitchTheme = () => (
   <img src={switchTheme} srcSet={`${switchTheme} 1x, ${switchTheme2x} 2x`} alt="Сменить тему"/>
@@ -24,31 +25,32 @@ function App() {
   return (
     <div className="App">
       <div className="wrapper">
-        <div className="top_header">
             <div className="theme_switch">
                 <SwitchTheme/>
             </div>
             <div className="AvatarIco">
                 <Avatar/>
             </div>
+            <Emptybox/>
             <Slogan/>
-        </div>
-        <div className="id_header">
             <Name/>
+            <Emptybox/>
             <div className="id_info">
                 <Contacts/>
                 <Quote/>
             </div>
-        </div>
-        <div className="main">
+            <Emptybox/>
+            <div className="spacer">
+            &nbsp;475487645
+            </div>
             <Nav/>
+            <Emptybox/>
             <div className="work_list">
                 <Article/>
                 <div className="work_another">
                     <p>Additional history available upon request</p>
                 </div>
             </div>
-        </div>
     </div>
     </div>
   );

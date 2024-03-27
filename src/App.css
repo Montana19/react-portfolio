@@ -37,12 +37,9 @@ html {
     margin-right: 184px;
     margin-bottom: 268px;
     font-family: "Inter", sans-serif;
-  }
-  
-  .top_header {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 24px;
+    display: grid;
+    grid-template-columns: 304px 304px 304px 304px;
+    grid-template-rows: 304px;
   }
   
   .theme_switch {
@@ -54,28 +51,18 @@ html {
     width: 280px;
     height: 280px;
   }
-  
-  .id_header {
-    display: flex;
-    justify-content: space-between;
-    font-weight: 400;
-  }
-  
+
   .id_info {
     width: 584px;
     height: 280px;
     background-color: rgba(0, 0, 0, 0.03);
-    margin-left: 328px;
   }
-  
-  .main {
-    margin-top: 328px;
-    display: flex;
+
+  .spacer {
+    grid-column: 1/-1;
   }
-  
   .work_list {
     width: 584px;
-    margin-left: 328px;
     color: rgba(0, 0, 0, 0.3);
   }
   
@@ -93,46 +80,6 @@ html {
   }
   
   .work_mappen p {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 112px;
-  }
-  
-  .work_atlassian span {
-    font-size: 24px;
-    line-height: 40px;
-    color: rgba(0, 0, 0, 0.6);
-  }
-  
-  .work_atlassian h4 {
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 40px;
-    margin-bottom: 20px;
-  }
-  
-  .work_atlassian p {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 112px;
-  }
-  
-  .work_pinger span {
-    font-size: 24px;
-    line-height: 40px;
-    color: rgba(0, 0, 0, 0.6);
-  }
-  
-  .work_pinger h4 {
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 40px;
-    margin-bottom: 20px;
-  }
-  
-  .work_pinger p {
     font-weight: 300;
     font-size: 18px;
     line-height: 24px;
